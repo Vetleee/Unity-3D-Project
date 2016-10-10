@@ -4,6 +4,8 @@
 		_Color1("Base Color" , Color) = (1,1,1,1)
 		_Color2("Highlight Color" , Color) = (1,1,1,1)
 
+		_Amount("Wave Amount" , Range(0,100)) = 1.0
+
 	}
 
 	SubShader
@@ -20,23 +22,20 @@
 		float4 pos : SV_POSITION;
 		fixed4 color : COLOR;
 };
+	float _Amount;
+	float4 _Color;
 
-	v2f vert(appdata_base v) {
-		v2f o;
-		o.pos = UnityObjectToClipPos(v.vertex);
-		o.color.xyz = v.normal * 0.5 + 0.5;
-		o.color.w = 1;
-		return o;
+	void vert (inout appdata_full v) {
+
+		v.vertex.xyz += v.normal * _Amount * abs(sin(_Time * 3)) * v.color.x;
+		v.vertex.y += _Amount * abs(sin(_Time * 200)) * v.color.y;
+		v.vertex.color = _Color;
 	}
 
-	fixed4 frag(v2f i) : SV_Target{ return i.color; }
+
 		ENDCG
 
-		Material
-			{
-
-				Diffuse [_Color1]
-			}
+		
 			Lighting On
 		}
 	}

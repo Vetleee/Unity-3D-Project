@@ -71,6 +71,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - first:
+        name: _Amount
+      second: 78.3
+    - first:
         name: _BumpScale
       second: 1
     - first:
@@ -124,7 +127,7 @@ Material:
       second: {r: 1, g: 1, b: 1, a: 1}
     - first:
         name: _Color1
-      second: {r: 0.9264706, g: 0.8787846, b: 0.8787846, a: 1}
+      second: {r: 0.6397059, g: 0.3574827, b: 0.3574827, a: 0}
     - first:
         name: _Color2
       second: {r: 0.49264705, g: 0.18112023, b: 0.18112023, a: 1}
