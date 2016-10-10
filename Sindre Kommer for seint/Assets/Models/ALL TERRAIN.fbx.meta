@@ -1,15 +1,28 @@
 fileFormatVersion: 2
-guid: d346f34c8a1e74acbbff7851fd320516
-timeCreated: 1475926551
+guid: 676184f6015b8494e8f1e087ffba3bb9
+timeCreated: 1476099026
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: pPlane4
+    100004: pPlane6
+    100006: pPlane7
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: pPlane5
+    400002: pPlane4
+    400004: pPlane6
+    400006: pPlane7
+    2300000: pPlane4
+    2300002: pPlane6
+    2300004: pPlane7
+    3300000: pPlane4
+    3300002: pPlane6
+    3300004: pPlane7
+    4300000: pPlane4
+    4300002: pPlane6
+    4300004: pPlane7
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1
