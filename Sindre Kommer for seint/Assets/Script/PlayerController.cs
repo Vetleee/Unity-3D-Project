@@ -22,7 +22,9 @@ public class PlayerController : MonoBehaviour {
     private Vector3 camRestingPoint;
     private Vector3 camPostion;
     private float transitionSpeed = 20f;
+    [SerializeField]
     private float bobSpeed = 4.8f;
+    [SerializeField]
     private float bobAmount = 0.2f;
     float bobTimer = Mathf.PI / 2;
 

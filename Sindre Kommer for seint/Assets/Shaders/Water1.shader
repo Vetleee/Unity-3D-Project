@@ -29,7 +29,7 @@
 
 		v.vertex.xyz += v.normal * _Amount * abs(sin(_Time * 3)) * v.color.x;
 		v.vertex.y += _Amount * abs(sin(_Time * 200)) * v.color.y;
-		v.vertex.color = _Color;
+		//v.vertex.color = _Color;
 	}
 
 
