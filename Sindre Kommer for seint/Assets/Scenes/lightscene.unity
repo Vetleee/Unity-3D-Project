@@ -481,7 +481,7 @@ MonoBehaviour:
   maxMovementSpeed: 0
   mousesens: 5
   upDownRange: 60
-  jumpSpeed: 20
+  jumpSpeed: 0
   powerjump: 120
   powerSpeed: 40
   jumpPowerGems: 0
