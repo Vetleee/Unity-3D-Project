@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Vetles Labratorium.unity
+- path: Assets/Scenes/lightscene.unity
   isLoaded: 1
   isActive: 1
