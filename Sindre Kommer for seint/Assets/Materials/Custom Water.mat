@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Custom Water
-  m_Shader: {fileID: 4800000, guid: 893183242a1a9294caac23c827640139, type: 3}
+  m_Shader: {fileID: 4800000, guid: f9888f0452e58ae4488d28299aa4047c, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
@@ -101,6 +101,9 @@ Material:
         name: _Mode
       second: 0
     - first:
+        name: _MySliderValue
+      second: 2.46
+    - first:
         name: _OcclusionStrength
       second: 1
     - first:
@@ -123,8 +126,11 @@ Material:
       second: 1
     m_Colors:
     - first:
+        name: _AmbientColor
+      second: {r: 0.5441177, g: 0.25205454, b: 0.25205454, a: 0.028}
+    - first:
         name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
+      second: {r: 0.37162605, g: 0.18187718, b: 0.85294116, a: 1}
     - first:
         name: _Color1
       second: {r: 0.6397059, g: 0.3574827, b: 0.3574827, a: 0}
