@@ -1,0 +1,453 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	Sindre Kommer for seint/Library/CurrentLayout.dwlt
+#	Sindre Kommer for seint/Library/assetDatabase3
+#	Sindre Kommer for seint/Library/metadata/00/00000000000000004000000000000000
+#	Sindre Kommer for seint/Library/metadata/00/00000000000000006100000000000000
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 6 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   Sindre Kommer for seint/Assets/Materials/Custom Water.mat
+#	modified:   Sindre Kommer for seint/Assets/Materials/bark_01.mat
+#	modified:   Sindre Kommer for seint/Assets/Materials/lambert7.mat
+#	modified:   Sindre Kommer for seint/Assets/Prefabs/Tree.prefab
+#	new file:   Sindre Kommer for seint/Assets/Scale.unity
+#	new file:   Sindre Kommer for seint/Assets/Scale.unity.meta
+#	modified:   Sindre Kommer for seint/Assets/Scenes/Scene 1.unity
+#	modified:   Sindre Kommer for seint/Assets/Scenes/lightscene.unity
+#	new file:   Sindre Kommer for seint/Assets/Shaders/Diffuse Shader1.shader
+#	new file:   Sindre Kommer for seint/Assets/Shaders/Diffuse Shader1.shader.meta
+#	modified:   Sindre Kommer for seint/Assets/Shaders/ImLearnding1.shader
+#	new file:   Sindre Kommer for seint/Assets/final terrain.fbx
+#	new file:   Sindre Kommer for seint/Assets/final terrain.fbx.meta
+#	modified:   Sindre Kommer for seint/Library/CurrentLayout.dwlt
+#	new file:   Sindre Kommer for seint/Library/CurrentMaximizeLayout.dwlt
+#	modified:   Sindre Kommer for seint/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+#	modified:   Sindre Kommer for seint/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+#	modified:   Sindre Kommer for seint/Library/ScriptAssemblies/Assembly-CSharp.dll
+#	modified:   Sindre Kommer for seint/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+#	modified:   Sindre Kommer for seint/Library/ScriptMapper
+#	modified:   Sindre Kommer for seint/Library/ShaderCache.db
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/0/01d24d586fe1ab6c6c4e520d898c2f87.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/0/05f14be8ef616bce64bc93f3351c898e.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/0/06eba28d6e055e34431187c5a5e4d75b.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/0/0b8da831dde5ce877838868fbbe3eaa9.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/0/0e48af3bdf54cd2e4e7524c7a2ed4cc0.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/1/18a6bdd46ae00734cb7e347dec505dab.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/2/2093395d3e3d8361c30f48e688623ea0.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/2/2a0760c4c86f438e920987770a11f01f.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/2/2da1268545907fd42e31941a05089eb7.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/2/2dbb1713ed9d541376a1970c555ce4af.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/2/2f40274d3563dbdc20c4488972d4b668.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/3/34e9d6af8ee6f20fbe298a868df50d77.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/3/36ac028d5b990ad2517c6e9e6f5d18be.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/3/3911fa72e6c07b32c9e8935687172ba2.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/3/3c4209833d9d6091949ce042a212ffd9.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/3/3f691f40bd4f701067f2e4e52718bcd5.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/4/405f30f90eb904dd16ec6afb98b82dd5.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/4/4a37566832c8687192aeb06569ac97b6.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/4/4eac2dffd1997470628d7e13994f7a52.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/5/50bb63fb025131e744a983486272d5d6.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/5/532316bc8f7df3edfc61fca4486337b1.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/5/54316975f9e39c8fcfbf58a2e251d81e.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/5/5506c062161b516154e9408e428ac5b1.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/5/5788b9e6a1a59f5387f63387f65f7ac2.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/5/594e2d6b8d6099fa3f7f89a74ceb46d1.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/6/623791c98d167b573381a4453342f64a.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/6/63c2bc6a5c44401f2f1376f9bf5c085c.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/6/66370f790c214cc33c04015637df6b71.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/6/6854e9b3b2d77602c9d8a433a206ebfd.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/7/708ae8af5446156eb239ac71a65af1aa.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/7/7358a69e3c5a429e49a2d2bf5763c7be.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/7/74b065ccd1f17037969e78c668d8f105.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/7/751fdde200aacdde847edf46f0bb383f.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/7/7592057f7945f1a7f4d0288b363b9e18.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/7/79230baef53a44863669f2e8919b50fa.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/7/7a7d11b558a276458f296a351c00e3d4.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/7/7c46d4fe9a6f34e3d416c292faf4414e.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/7/7dcf05d2c5a1ff2318791c4250697b56.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/8/80e4b3195a4621525a2f8725ca30df44.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/8/81541f888ae490343583419a2fe7d030.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/8/843276ad7e68fc5b0475a05653e76c81.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/8/887c3f04fbc88141cf9ff293faa42e8a.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/8/8e0c298a955554d288eaf1c6cbade354.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/9/9179711c0ab26e0f9146457e36692f04.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/9/96334dcddc521252dd8a059a02e78384.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/9/96d1a8e4ec80d3f0f04e81cf508770cf.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/9/992f62f80dc528adc5609023b7de59d6.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/9/99e9a0cef9993137628019dea416a232.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/9/9aad7110beffe39dd15f86a4b5bfaf70.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/9/9d42193983191677adfa46c087676e8e.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/a/a1aac66d855624f28996b5c213aa1830.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/a/a1af0f76319a8f473b2be10d9b667cc4.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/a/a2b1d814147150b0e259adf9a5c7b5ce.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/a/a36bb7c08b0c3894e25da76e4c176a2b.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/a/a41e493b4a04b0a3222a9df5ec087962.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/a/a5955efa0bd4f4034efb48ed079e8af4.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/a/aacdc211b9f90d4f866317fc199f808b.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/a/ad328c22fc7db68f28691aaa705b3dff.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/a/ae2def4b851e96d29c7563c389df1143.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/b/b5633f20fdd0f9a966360491ad579d86.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/b/b6a7fa3246b7043b4ee7f77df005be51.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/b/b74d34a39473346e84404baf78fda73f.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/b/b9bae8fedf32b8b9eaa5442f1ae481bf.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/b/bac3b9a1e1b377ba4e229fcc190a7f32.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/b/bb33eb80fce10c089716140c002e60b8.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/b/beaefe57b1965fe1b45daa72b9b9a325.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/b/bec17fcc4ab94bc9c9865b933298bae7.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/c/c166ccd72a868a1cae4314ea564a6aee.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/c/c2df51c903d780c692904f8250b36e97.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/c/c7906c31e6fdef649ae989e18bedc748.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/c/ca08f5d11160f71e4ef304f078689d75.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/c/cb13b2048d1c1a2780534325673653b9.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/d/d7568ceba28d67d79ec4956e4ff7e978.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/d/d9060b625ef6ebae5a9337e68d559888.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/d/dbb34d1d746acb105ebbe351a2b753a5.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/e/e734fd2b5e42b88ea9e7438020d83bc4.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/e/ec2883016a91a31b7b9e96f07514672b.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/f/f277774c954ed09765f9b9f6df1e68b8.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/f/f5a4569b2ee0222c0f2103df3a0a7716.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/f/fd425282632e2aecd8baeab05d4c39c7.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/f/ff5020e6443b82672314df312f886f68.bin
+#	new file:   Sindre Kommer for seint/Library/ShaderCache/f/ff551365c479f55d2aa6dc6617658b87.bin
+#	modified:   Sindre Kommer for seint/Library/assetDatabase3
+#	modified:   Sindre Kommer for seint/Library/expandedItems
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000002000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000003000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000004000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000004100000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000005000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000005100000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000006000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000006100000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000007000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000007100000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000008000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000008100000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00000000000000009000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/0000000000000000a000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/0000000000000000a100000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/0000000000000000b000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/0000000000000000c000000000000000
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00b849c26a33447cbb2c3c1b543fdc39.info
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00b8b627463ea4be2a7215c166dadecb.info
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00c3c865782347f41b6358d9fba14b48
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00ea537c3edbf214e8d07b7a4b02c44f
+#	modified:   Sindre Kommer for seint/Library/metadata/00/00ea537c3edbf214e8d07b7a4b02c44f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/01/01e2f5c4c56a78142a522ddd88302a4b.info
+#	modified:   Sindre Kommer for seint/Library/metadata/02/02a35c06eff954a9c8c7add7e45b6558.info
+#	modified:   Sindre Kommer for seint/Library/metadata/03/039b785dd431d4bb1a2cb258ca420bdf.info
+#	modified:   Sindre Kommer for seint/Library/metadata/04/042493b45c8ecb140a46a1e11bc7ed84.info
+#	modified:   Sindre Kommer for seint/Library/metadata/05/05ec5cf00ca181d45a42ba1870e148c3
+#	modified:   Sindre Kommer for seint/Library/metadata/06/0626b924325d1c34cafa6b22297f4e4f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/07/0727cda1d7e0047e2bffa093e9247d51.info
+#	modified:   Sindre Kommer for seint/Library/metadata/0b/0b19bf39cd8cb4fdc81a2ca3bacaf2af.info
+#	modified:   Sindre Kommer for seint/Library/metadata/0b/0b8cd6b77ddb9a447be05fdaa203ba8d
+#	modified:   Sindre Kommer for seint/Library/metadata/0c/0c6271a290ef75b4c97d58746c86c5b8.info
+#	modified:   Sindre Kommer for seint/Library/metadata/0d/0d9a566b25f0144e9a78fcf2ec29e048
+#	modified:   Sindre Kommer for seint/Library/metadata/0d/0d9a566b25f0144e9a78fcf2ec29e048.info
+#	modified:   Sindre Kommer for seint/Library/metadata/0e/0edc958da9a034546b874df880160a1f
+#	modified:   Sindre Kommer for seint/Library/metadata/0e/0edc958da9a034546b874df880160a1f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/0f/0f57aeb1b8dce3342bea5c28ac17db24
+#	modified:   Sindre Kommer for seint/Library/metadata/0f/0fb6105e6dc65fb46afadbf8a8bf5091.info
+#	modified:   Sindre Kommer for seint/Library/metadata/0f/0fc53393e8940418fa67125ecb6061d5.info
+#	modified:   Sindre Kommer for seint/Library/metadata/13/1333dafd22b43974091d9c55f2169cde.info
+#	modified:   Sindre Kommer for seint/Library/metadata/14/14877617607f5fb47af48fcd766426ad.info
+#	modified:   Sindre Kommer for seint/Library/metadata/14/14b796ccc828d9c438f62d31d0847c66
+#	modified:   Sindre Kommer for seint/Library/metadata/15/15bb216412da9484685d0d6f9154dbad.info
+#	modified:   Sindre Kommer for seint/Library/metadata/16/1616087a3c05e4a80af530816af58904.info
+#	modified:   Sindre Kommer for seint/Library/metadata/16/169a1b8f06c17c84e8de491f2bfef986.info
+#	modified:   Sindre Kommer for seint/Library/metadata/1c/1c7351439f308443895a5316ef3b5827.info
+#	modified:   Sindre Kommer for seint/Library/metadata/1c/1caf40fc8bebb6b43b2550c05ca791d6
+#	modified:   Sindre Kommer for seint/Library/metadata/1e/1e97c5af0ee5f45fab42309004a54d01.info
+#	modified:   Sindre Kommer for seint/Library/metadata/20/2015700b11c9f492fb346524d956b48c.info
+#	modified:   Sindre Kommer for seint/Library/metadata/20/2037768ff8c6b6845a0eac7217b4ba18.info
+#	modified:   Sindre Kommer for seint/Library/metadata/21/21c18918f420d1b49a04ee73316cc35f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/22/223a1c6e6c8724502aad9c796801ac34.info
+#	modified:   Sindre Kommer for seint/Library/metadata/22/225134698a81d4c35bb601dfb81df981
+#	modified:   Sindre Kommer for seint/Library/metadata/22/225134698a81d4c35bb601dfb81df981.info
+#	modified:   Sindre Kommer for seint/Library/metadata/22/2292b2ea2afdd4f5081502da73c53c2a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/22/22bbf57ec543cee42a5aa0ec2dd9e457
+#	modified:   Sindre Kommer for seint/Library/metadata/24/246cc59c7a84ea44f87f6b70acfe30c5
+#	modified:   Sindre Kommer for seint/Library/metadata/24/247aff31944884924894b4032ee775b9.info
+#	modified:   Sindre Kommer for seint/Library/metadata/27/278c23dd1da96418fbf78e40ce0a696a
+#	modified:   Sindre Kommer for seint/Library/metadata/27/278c23dd1da96418fbf78e40ce0a696a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/28/28de891aee03547d58a2ac1c32b76c57.info
+#	modified:   Sindre Kommer for seint/Library/metadata/29/29014cd42b6d273408e0ceefd336c0b3
+#	modified:   Sindre Kommer for seint/Library/metadata/2a/2a657bc3fecb3df4580ec3320a5b89bf.info
+#	modified:   Sindre Kommer for seint/Library/metadata/2a/2af4c88722e68944ca5f6b38891c5930.info
+#	modified:   Sindre Kommer for seint/Library/metadata/2b/2b821befe69604c5881c8d058851ac4e.info
+#	modified:   Sindre Kommer for seint/Library/metadata/2d/2d847e01c71894b238bfbb09a1a10536
+#	modified:   Sindre Kommer for seint/Library/metadata/2d/2d847e01c71894b238bfbb09a1a10536.info
+#	modified:   Sindre Kommer for seint/Library/metadata/2f/2f9194bf493494e42abb3a8bcdde5dc8.info
+#	modified:   Sindre Kommer for seint/Library/metadata/2f/2fcffabd8aa1283458322aed9b782272
+#	modified:   Sindre Kommer for seint/Library/metadata/2f/2fcffabd8aa1283458322aed9b782272.info
+#	modified:   Sindre Kommer for seint/Library/metadata/2f/2fee005fa69194c12b69fb36b49929f3.info
+#	modified:   Sindre Kommer for seint/Library/metadata/31/31080719f06914f1ea4a832e0f3b130d.info
+#	modified:   Sindre Kommer for seint/Library/metadata/31/3179e3eaba5004904a5bd15e489c7ffa.info
+#	modified:   Sindre Kommer for seint/Library/metadata/31/31fc2f96ebca0a944b8efbccde2a0968.info
+#	modified:   Sindre Kommer for seint/Library/metadata/32/32dd115bed46a474ab32a88684606180.info
+#	modified:   Sindre Kommer for seint/Library/metadata/33/33c4bcc9f62a44a84b6ac8ba90edce73.info
+#	modified:   Sindre Kommer for seint/Library/metadata/34/3423bcd6df6304b75a0930b67feb3003
+#	modified:   Sindre Kommer for seint/Library/metadata/34/3423bcd6df6304b75a0930b67feb3003.info
+#	modified:   Sindre Kommer for seint/Library/metadata/34/349e0dd8d92aa46a7ab0ef3eb0f67d4c.info
+#	modified:   Sindre Kommer for seint/Library/metadata/34/34d3a5d786a7a4cb6aff595021436661.info
+#	modified:   Sindre Kommer for seint/Library/metadata/36/36bc6adf7cc404e92b49be066bc5a897
+#	modified:   Sindre Kommer for seint/Library/metadata/36/36bc6adf7cc404e92b49be066bc5a897.info
+#	new file:   Sindre Kommer for seint/Library/metadata/37/37c97761264b4485caf59d4e2b39a16c
+#	new file:   Sindre Kommer for seint/Library/metadata/37/37c97761264b4485caf59d4e2b39a16c.info
+#	modified:   Sindre Kommer for seint/Library/metadata/37/37e60a97f2c87ae41b6cdc1055d78cb9
+#	modified:   Sindre Kommer for seint/Library/metadata/37/37fac21d1f093d344816942d1abce94e
+#	modified:   Sindre Kommer for seint/Library/metadata/38/3833a7e6653de9049bfaf69e25deaf66.info
+#	modified:   Sindre Kommer for seint/Library/metadata/39/3930fc89a28b29746bde6a2389a513e0.info
+#	modified:   Sindre Kommer for seint/Library/metadata/3a/3a1c3cd9f2f146245be4af3a1123a528.info
+#	modified:   Sindre Kommer for seint/Library/metadata/3a/3a7cedf246fca744f90cbdc9dbe41166
+#	modified:   Sindre Kommer for seint/Library/metadata/3b/3b09d59f4499d45428baa7a21e954296.info
+#	modified:   Sindre Kommer for seint/Library/metadata/3b/3b17d1eedae9b4f1b93fae792a3f3f56.info
+#	modified:   Sindre Kommer for seint/Library/metadata/3c/3c0ad459c1534645b5d603b7cc258f97
+#	modified:   Sindre Kommer for seint/Library/metadata/3d/3d1d95d43f7037d47896e5eaa8ec53c1.info
+#	modified:   Sindre Kommer for seint/Library/metadata/3d/3d8675433a508ec47b8f895201eacf20.info
+#	modified:   Sindre Kommer for seint/Library/metadata/3e/3e0600a4e5b6a42e2b9479a83cca9a08.info
+#	modified:   Sindre Kommer for seint/Library/metadata/3f/3f0c993d76303437c8f49507861359dc.info
+#	modified:   Sindre Kommer for seint/Library/metadata/41/415d391cac3ec4518b39e6f35223fd61.info
+#	modified:   Sindre Kommer for seint/Library/metadata/42/42e65e088b3f4374e851b8dbd38f3df9.info
+#	modified:   Sindre Kommer for seint/Library/metadata/43/438f35e5e8d7c0c42aee582a2e2ec8e8.info
+#	modified:   Sindre Kommer for seint/Library/metadata/44/4433c80abd3b7422a9c0a67294683d61.info
+#	modified:   Sindre Kommer for seint/Library/metadata/46/46bf372e16cc54ddf89ac04960142e67.info
+#	modified:   Sindre Kommer for seint/Library/metadata/49/492f54f4accf00440828ffcb9e4fcc19
+#	modified:   Sindre Kommer for seint/Library/metadata/49/49b611e658efbf443b686a4036f74fe3.info
+#	modified:   Sindre Kommer for seint/Library/metadata/4b/4b4529d984fc849778243bca841f9257.info
+#	modified:   Sindre Kommer for seint/Library/metadata/4b/4bc70c48f58c2c44bb60f3c8719f38c7.info
+#	modified:   Sindre Kommer for seint/Library/metadata/4c/4c0a2efa69bf65b4b9614df22b5976fa
+#	modified:   Sindre Kommer for seint/Library/metadata/4c/4cdf71c5fc0e6455396e2196f3ec5df8.info
+#	modified:   Sindre Kommer for seint/Library/metadata/4d/4d36d3ae9dc16420a9ea8e50cf1302a0.info
+#	modified:   Sindre Kommer for seint/Library/metadata/4d/4d9f96dc44e84e14ea5e825167d7db13
+#	modified:   Sindre Kommer for seint/Library/metadata/4d/4d9f96dc44e84e14ea5e825167d7db13.info
+#	modified:   Sindre Kommer for seint/Library/metadata/4d/4db017495c69e8140a56a0e2b669e3f8.info
+#	modified:   Sindre Kommer for seint/Library/metadata/4e/4e02df907356e0848a5d76021b80192a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/4f/4f1ba7c719bf04660bdaf6b37388069f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/52/527565e0b701b4be996756e8954137fe
+#	modified:   Sindre Kommer for seint/Library/metadata/52/527565e0b701b4be996756e8954137fe.info
+#	modified:   Sindre Kommer for seint/Library/metadata/52/52e184ea2ef583e4ea2a4a7fd13c5779.info
+#	modified:   Sindre Kommer for seint/Library/metadata/53/531d6eb549c9842b5b58a04b219f1ffa.info
+#	modified:   Sindre Kommer for seint/Library/metadata/53/5320542c89e8f41ec8f0302c06744e49.info
+#	modified:   Sindre Kommer for seint/Library/metadata/53/5323c15e27c84834f822a3a20c463960.info
+#	modified:   Sindre Kommer for seint/Library/metadata/53/53bb5090c05dc4aacbeb35f2cc2ba81b.info
+#	modified:   Sindre Kommer for seint/Library/metadata/53/53e85f582579c4182a6b89a6ac9580a8.info
+#	modified:   Sindre Kommer for seint/Library/metadata/54/5485e2f56028a3c4cb54f5caa167377e
+#	modified:   Sindre Kommer for seint/Library/metadata/54/5485e2f56028a3c4cb54f5caa167377e.info
+#	modified:   Sindre Kommer for seint/Library/metadata/55/550954190a5c44502bfe679fab1fd0f6.info
+#	modified:   Sindre Kommer for seint/Library/metadata/58/58650e15a2607e44daa0f150e0061d89
+#	modified:   Sindre Kommer for seint/Library/metadata/58/5897aeed9b676024fbb8c694b421a861.info
+#	modified:   Sindre Kommer for seint/Library/metadata/58/58b331b67c6f145028e647956cebb715.info
+#	modified:   Sindre Kommer for seint/Library/metadata/5a/5a9383dda6cabc047b7a297602e93eb4.info
+#	modified:   Sindre Kommer for seint/Library/metadata/5b/5b1a64ea234fb2343b8d0686c51280de.info
+#	modified:   Sindre Kommer for seint/Library/metadata/5c/5c2d84226fbbaf94e9c1451f1c39b06a
+#	modified:   Sindre Kommer for seint/Library/metadata/5c/5c559f21bbd1f4c5a85d3343bb693fc3.info
+#	modified:   Sindre Kommer for seint/Library/metadata/5c/5cb137502fd51c041b7419f6c502932e.info
+#	modified:   Sindre Kommer for seint/Library/metadata/5e/5e79e0538b08842f9b6679e907d4f1bb.info
+#	modified:   Sindre Kommer for seint/Library/metadata/5e/5ebfe8c36f34941bd8fcc72f88a6d3d7.info
+#	modified:   Sindre Kommer for seint/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+#	modified:   Sindre Kommer for seint/Library/metadata/5f/5fa7c84681de64226954647ad517fca9.info
+#	modified:   Sindre Kommer for seint/Library/metadata/5f/5fe15c8b8bd8e475d9e88a590dcac065.info
+#	modified:   Sindre Kommer for seint/Library/metadata/60/6045a93fb05b9c74884821030da2c46c
+#	modified:   Sindre Kommer for seint/Library/metadata/61/617d9be015db68348a623b01ea51a8c5.info
+#	modified:   Sindre Kommer for seint/Library/metadata/61/61a9d842a5da34ab1b0ba26889b3689e.info
+#	modified:   Sindre Kommer for seint/Library/metadata/63/63b2cf97154c7524ba97ab3cce297ebc
+#	modified:   Sindre Kommer for seint/Library/metadata/64/643c971818f68d3439e84b5d8bdafe07
+#	modified:   Sindre Kommer for seint/Library/metadata/64/646d9ea9f2531486f939b900c6297e50.info
+#	modified:   Sindre Kommer for seint/Library/metadata/65/652e2bd60e45148c28624dc1f0a9efe7.info
+#	modified:   Sindre Kommer for seint/Library/metadata/66/66548897456a444d2bbf69ed3835d7e6.info
+#	modified:   Sindre Kommer for seint/Library/metadata/66/66929b86ec26c4b17a12f875d1920b54
+#	modified:   Sindre Kommer for seint/Library/metadata/66/66929b86ec26c4b17a12f875d1920b54.info
+#	modified:   Sindre Kommer for seint/Library/metadata/67/6757373620a474f07ab4aadbb49e2cb1.info
+#	modified:   Sindre Kommer for seint/Library/metadata/67/676184f6015b8494e8f1e087ffba3bb9
+#	modified:   Sindre Kommer for seint/Library/metadata/67/676184f6015b8494e8f1e087ffba3bb9.info
+#	modified:   Sindre Kommer for seint/Library/metadata/67/67ceb11dbc860a8438e010842aaa2898
+#	modified:   Sindre Kommer for seint/Library/metadata/69/69b69a5b0e0a85b4aa97a7edc40c37d1
+#	modified:   Sindre Kommer for seint/Library/metadata/6a/6a94e9b80bb5d4ec6ad0603b2cbc5cc6.info
+#	modified:   Sindre Kommer for seint/Library/metadata/6a/6ac1ce5a5adfd9f46adbf5b6f752a47c
+#	modified:   Sindre Kommer for seint/Library/metadata/6c/6c2751b07f4274483b83ae2f6842b343.info
+#	modified:   Sindre Kommer for seint/Library/metadata/6c/6c2f5f53cf8256c42b90da9a536584c5.info
+#	modified:   Sindre Kommer for seint/Library/metadata/6e/6e3f986af96b0864f9b448013dd16ddf.info
+#	modified:   Sindre Kommer for seint/Library/metadata/70/70852dc981465ea48bb527b9e33a87fd
+#	modified:   Sindre Kommer for seint/Library/metadata/71/71398ce7fbc3a5b4fa50b50bd54317a7
+#	modified:   Sindre Kommer for seint/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef
+#	modified:   Sindre Kommer for seint/Library/metadata/75/754744b3bab3246dd91f36a5d316f47c
+#	modified:   Sindre Kommer for seint/Library/metadata/75/754744b3bab3246dd91f36a5d316f47c.info
+#	modified:   Sindre Kommer for seint/Library/metadata/75/75ae480760dbb4516aa514188388068e.info
+#	modified:   Sindre Kommer for seint/Library/metadata/76/76063e8ceff1945939ca107664e1c7e0.info
+#	modified:   Sindre Kommer for seint/Library/metadata/77/772bde55429794d6caacb5f17d952d5b.info
+#	modified:   Sindre Kommer for seint/Library/metadata/77/77715b8b6b248994891d3ccad1ad330b.info
+#	modified:   Sindre Kommer for seint/Library/metadata/77/77b0f66f6ba004718b2e950bb5ef578e.info
+#	modified:   Sindre Kommer for seint/Library/metadata/7a/7a37d7eae77ecd94d99e992d03358dcf
+#	modified:   Sindre Kommer for seint/Library/metadata/7a/7a7642f9a39e448a3be479defe392b8f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/7b/7bf428ddc81aa4d609d6155a3977bf8b.info
+#	modified:   Sindre Kommer for seint/Library/metadata/7c/7cbab2be89b54486bbd23a6fe637d30e
+#	modified:   Sindre Kommer for seint/Library/metadata/7d/7d3269566d48b8447bb48d2259e28f8b
+#	new file:   Sindre Kommer for seint/Library/metadata/7d/7d696aea70ecf4edc94b0a56f64754f5
+#	new file:   Sindre Kommer for seint/Library/metadata/7d/7d696aea70ecf4edc94b0a56f64754f5.info
+#	modified:   Sindre Kommer for seint/Library/metadata/7d/7de35a928bb4040bc83823cc421e64de.info
+#	modified:   Sindre Kommer for seint/Library/metadata/7f/7f4434c65f76e437f984626e96122f33.info
+#	modified:   Sindre Kommer for seint/Library/metadata/7f/7f934c5ce832dfb4991233d48e1cd7e1.info
+#	modified:   Sindre Kommer for seint/Library/metadata/80/809057a74cc1f4bb7acbe4cfe4a90a5b.info
+#	modified:   Sindre Kommer for seint/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+#	modified:   Sindre Kommer for seint/Library/metadata/80/80c2056d15774ae43890a662dc71de30
+#	modified:   Sindre Kommer for seint/Library/metadata/81/81c9795a96c094f4cbde4d65546aa9b2
+#	modified:   Sindre Kommer for seint/Library/metadata/82/827c9cd4a3943534f909ac6473e17288.info
+#	modified:   Sindre Kommer for seint/Library/metadata/83/83c81407209f85e4c87c0cda8b32868e
+#	modified:   Sindre Kommer for seint/Library/metadata/83/83e347529f9f141608f77c9ff3216f1f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/85/852e56802eb941638acbb491814497b0
+#	modified:   Sindre Kommer for seint/Library/metadata/85/8566902b50d5bfb4fb7f8b89f9cdbe8b
+#	modified:   Sindre Kommer for seint/Library/metadata/85/85bf3be603548374ca46f521a3aa7fda
+#	modified:   Sindre Kommer for seint/Library/metadata/86/868d9ca7c2fd04be3a3a37aaaae53a90.info
+#	modified:   Sindre Kommer for seint/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+#	modified:   Sindre Kommer for seint/Library/metadata/87/87bee338d047997489ce40bc10f18466.info
+#	modified:   Sindre Kommer for seint/Library/metadata/88/88dfef8ec4278ad4aa040e2776e985f4.info
+#	modified:   Sindre Kommer for seint/Library/metadata/89/893183242a1a9294caac23c827640139
+#	modified:   Sindre Kommer for seint/Library/metadata/8b/8b0112565e53b4f3295f927a992c6fed.info
+#	modified:   Sindre Kommer for seint/Library/metadata/8b/8bc94ec6ed537e743b481638bdcd503d.info
+#	modified:   Sindre Kommer for seint/Library/metadata/8c/8c84ddb32342f7a409915f46705fcc5a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/8c/8cdf5d09da9a34ddb8b306191c60a73f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/8d/8db11092ee14a4de48b0d6e31da86cd4.info
+#	modified:   Sindre Kommer for seint/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44
+#	modified:   Sindre Kommer for seint/Library/metadata/8e/8ec2c27e3872b422ea90cd059c3b391b.info
+#	modified:   Sindre Kommer for seint/Library/metadata/90/90494e0797812be488f2fbe703461966.info
+#	modified:   Sindre Kommer for seint/Library/metadata/96/964bfca3f48ac4e218e9aeecb78a6d69
+#	modified:   Sindre Kommer for seint/Library/metadata/96/964bfca3f48ac4e218e9aeecb78a6d69.info
+#	modified:   Sindre Kommer for seint/Library/metadata/97/9703d53e47195aa4190acd11369ccd1b
+#	modified:   Sindre Kommer for seint/Library/metadata/97/971d99e435aced842a7bbb97b28f3767
+#	modified:   Sindre Kommer for seint/Library/metadata/97/971f44ba24a74294294daed00507d80e
+#	modified:   Sindre Kommer for seint/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead
+#	modified:   Sindre Kommer for seint/Library/metadata/98/9866a92691696b346901281f2b329034.info
+#	modified:   Sindre Kommer for seint/Library/metadata/99/9961032f4f02c4f41997c3ea399d2f22
+#	modified:   Sindre Kommer for seint/Library/metadata/9a/9ab98b66288df7b4fa182075f2f12bd6
+#	modified:   Sindre Kommer for seint/Library/metadata/9b/9b886447cba80f74e820adb3c9e70c76
+#	modified:   Sindre Kommer for seint/Library/metadata/9c/9c0578910bbe00d43919a92c7b9893fe
+#	modified:   Sindre Kommer for seint/Library/metadata/9c/9c4978ff6447f9040b84acc89b0bbdc8
+#	modified:   Sindre Kommer for seint/Library/metadata/9c/9ceb4851144bf8444bfdfe1344e0f439.info
+#	modified:   Sindre Kommer for seint/Library/metadata/9d/9d31326daa1b3704b8fb0bc119bc99db
+#	modified:   Sindre Kommer for seint/Library/metadata/9d/9d7c6e4896067aa4fa512a00f692ac1c.info
+#	modified:   Sindre Kommer for seint/Library/metadata/9d/9d7cdcd8a4759a74c96ac675fdbccce9.info
+#	modified:   Sindre Kommer for seint/Library/metadata/a0/a05d803e931704591ab1646ba64a10af.info
+#	modified:   Sindre Kommer for seint/Library/metadata/a1/a1347817507220a4384f3ff6f7c24546
+#	modified:   Sindre Kommer for seint/Library/metadata/a1/a167c6f9f35e64b2aaa15b3c93467833.info
+#	modified:   Sindre Kommer for seint/Library/metadata/a2/a233316cd5c3fd84bbad0597bd05102f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/a2/a29966173f93347139a035a7f0c97b0d.info
+#	modified:   Sindre Kommer for seint/Library/metadata/a3/a3983c59ebf804b4abba687bd7c9e92f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/a3/a3b997593a4f12c4c991490593f3b513
+#	modified:   Sindre Kommer for seint/Library/metadata/a5/a5a1d1fa3a6e543ff8ee5f640c3e402f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/a9/a94c9a7eb94ceec4a8d67a1890e22e51.info
+#	modified:   Sindre Kommer for seint/Library/metadata/a9/a9ccb154c91f94a7da265fb4d1ef21d2.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ab/ab78a862493ed7f42a9d16bc994e6697.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ad/ad3e8564664f8459cb43b2a0afab59f8.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ad/adb33f88004de461d9828b4ad1b572b3.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+#	modified:   Sindre Kommer for seint/Library/metadata/af/af60ec41cdde0c84ab0aa05202eaa074.info
+#	modified:   Sindre Kommer for seint/Library/metadata/b0/b047828f8373f450eb3e571085fe95b8.info
+#	modified:   Sindre Kommer for seint/Library/metadata/b1/b10ea81b91fc24fc489769b9c762c137.info
+#	modified:   Sindre Kommer for seint/Library/metadata/b2/b27507c5d0efbbd47ac8c1de9a1a0a35
+#	modified:   Sindre Kommer for seint/Library/metadata/b2/b2e7ca33e11a84df4a82ec45638fd1df.info
+#	modified:   Sindre Kommer for seint/Library/metadata/b3/b32246c3ec13c46b99450447b832c582.info
+#	modified:   Sindre Kommer for seint/Library/metadata/b3/b33de80d3c9714dc4951bbcd6874d235.info
+#	modified:   Sindre Kommer for seint/Library/metadata/b4/b42610e8df8d64fdd8dc38056f2ca1b8.info
+#	modified:   Sindre Kommer for seint/Library/metadata/b4/b4861ee3d61bc4005afcd35e14e7d28f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/b6/b6fe7384059b7476bbe08d3253d4ccdf.info
+#	modified:   Sindre Kommer for seint/Library/metadata/b8/b860fc8f8d7aa44418d9a7c6dcc68621.info
+#	modified:   Sindre Kommer for seint/Library/metadata/b9/b995ef61d7c35429abb94f80371d71b0
+#	modified:   Sindre Kommer for seint/Library/metadata/b9/b995ef61d7c35429abb94f80371d71b0.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ba/ba3c75f0b181649c2828e96c55ff9a61.info
+#	modified:   Sindre Kommer for seint/Library/metadata/bc/bc2f08ef23cf78446bc8e73e09f87dfb.info
+#	modified:   Sindre Kommer for seint/Library/metadata/bc/bc4df9f8ce653464f846e50dfdc63a2f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/bc/bc9b000e9b8028247bd816e159382646
+#	modified:   Sindre Kommer for seint/Library/metadata/c1/c1bbfafbde15c854681023b9e01e12dd
+#	modified:   Sindre Kommer for seint/Library/metadata/c2/c23da9a60bd2047dd9e3519c21dcde73.info
+#	modified:   Sindre Kommer for seint/Library/metadata/c2/c29d9a53e550345fcb41df5531e402b7.info
+#	modified:   Sindre Kommer for seint/Library/metadata/c3/c3b9305128d504040823bd3583f7eb92.info
+#	modified:   Sindre Kommer for seint/Library/metadata/c4/c4a6505430adad24b9d75d0b67d7146c.info
+#	modified:   Sindre Kommer for seint/Library/metadata/c5/c5cb22d331ef7d64796f917c6a455a32
+#	modified:   Sindre Kommer for seint/Library/metadata/c7/c71c622b84d9e45a38403e6488a919c9.info
+#	modified:   Sindre Kommer for seint/Library/metadata/c8/c8634e062924929664361c08745211fb
+#	modified:   Sindre Kommer for seint/Library/metadata/ca/cadd54e4832aeef4b9359f44cbe335cd
+#	modified:   Sindre Kommer for seint/Library/metadata/cb/cb39d1e1246db884fb5d1197ce915176.info
+#	modified:   Sindre Kommer for seint/Library/metadata/cb/cb81d41cf78066c41bcecfd568f3513d
+#	modified:   Sindre Kommer for seint/Library/metadata/ce/ce0e5b299638241d39e51d9720ddd807
+#	modified:   Sindre Kommer for seint/Library/metadata/ce/ce0e5b299638241d39e51d9720ddd807.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ce/ceb0a3ed2cb53a94fa21843cc958c52b.info
+#	modified:   Sindre Kommer for seint/Library/metadata/cf/cf43ddec0dfe344749e0951b21d459a7.info
+#	modified:   Sindre Kommer for seint/Library/metadata/d1/d10b53160883f4c10b5b4e3cf509f8d5.info
+#	modified:   Sindre Kommer for seint/Library/metadata/d1/d1e2e7a54dcc8694ab1eca46d072f264
+#	modified:   Sindre Kommer for seint/Library/metadata/d2/d26daaec1620c4d88849853ca5cbb7a0.info
+#	modified:   Sindre Kommer for seint/Library/metadata/d3/d349eb2db22ec0746a14ade881ac087f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/d6/d680be3b8d98746ed943eaacf41f4f4a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/d8/d8a76af30fe42413f91fb2cc766c1996.info
+#	modified:   Sindre Kommer for seint/Library/metadata/da/da596fe6a054448fca35b4fc8d6c4628.info
+#	modified:   Sindre Kommer for seint/Library/metadata/da/da973bcda49f771409235bfe5c155ce0.info
+#	modified:   Sindre Kommer for seint/Library/metadata/da/dad691401d7994f5e8d2a8b7aab65b4d.info
+#	modified:   Sindre Kommer for seint/Library/metadata/db/db048a7fa697a4845a2a0d84f8c5bd8a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/de/dea9656c26981442095bb2c93282f23d.info
+#	modified:   Sindre Kommer for seint/Library/metadata/df/dfcee164c361f4fa5966e7a65b22efbd.info
+#	modified:   Sindre Kommer for seint/Library/metadata/df/dffdb4378818bc5469033648c57bd0b1.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e0/e0379a960fc75499cad838eb28dc3e62.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e1/e19ec098b27504b2283bd6bd67e462ad.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e2/e202651f8f1074061a5b56f1d7694f0a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e2/e2e2a40cd5ef34fe5ab3553b32ac4cf3.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e4/e48a7fe2b549f984594b521ae8f8f33c
+#	modified:   Sindre Kommer for seint/Library/metadata/e4/e49a2ff0e0bef40989a69333695db175.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e4/e4f1fee3de32377429fd1348fae62b10.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e5/e504f6e0da5a245afaefe58c152c1c8a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e6/e6f42cf2ea6744d02b3dd890734542c9.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e7/e725832b1f3d14448a21f611a263aa14.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e7/e7dbbe097a909494bb1fac344b132ca9.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e8/e87219c4214ce324db05cbc174727d19.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e8/e8759e1128e2b48e78e14e7ede867271.info
+#	modified:   Sindre Kommer for seint/Library/metadata/e9/e9714160ce34f2b4ab63ff8c27bd68e1.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ea/ea5873cfd9158664f89459f0c9e1d853.info
+#	modified:   Sindre Kommer for seint/Library/metadata/eb/eb31458df797745b4865e11f8a18c735.info
+#	modified:   Sindre Kommer for seint/Library/metadata/eb/eb5f6e2757c821940b69cf1456f7865a
+#	modified:   Sindre Kommer for seint/Library/metadata/eb/eb5f6e2757c821940b69cf1456f7865a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/eb/ebd33fcf3e2e74216aed288dc5aed76f.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ec/ec44bf67e8628493ea0a9de9cb7d116a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ec/ec8cb3342ea6f480ba4926e507e2e22c.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ee/ee055a0599158470c9d9b31b5f13216a
+#	modified:   Sindre Kommer for seint/Library/metadata/ee/ee055a0599158470c9d9b31b5f13216a.info
+#	modified:   Sindre Kommer for seint/Library/metadata/f0/f0f709ea6e56c4e7485fadf019334efd.info
+#	modified:   Sindre Kommer for seint/Library/metadata/f1/f1a695419c23d4a91a98e192e64fbadd.info
+#	modified:   Sindre Kommer for seint/Library/metadata/f3/f315beebe987a41a8bc73e671280666d.info
+#	modified:   Sindre Kommer for seint/Library/metadata/f3/f33d9e3a86071394c83b568257570dd5.info
+#	modified:   Sindre Kommer for seint/Library/metadata/f3/f37348edaa2574a26936478a6bf4a3bb.info
+#	modified:   Sindre Kommer for seint/Library/metadata/f5/f588d850485d0ae479d73cf3bd0b7b00.info
+#	modified:   Sindre Kommer for seint/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+#	modified:   Sindre Kommer for seint/Library/metadata/f7/f76806479d916a64aa03f8e3eba7912f
+#	modified:   Sindre Kommer for seint/Library/metadata/f8/f819c974459314eb4bedb72d33437569.info
+#	modified:   Sindre Kommer for seint/Library/metadata/f8/f88f62dda4c53fc4aa89bf1ef2735df5
+#	modified:   Sindre Kommer for seint/Library/metadata/f8/f88f62dda4c53fc4aa89bf1ef2735df5.info
+#	new file:   Sindre Kommer for seint/Library/metadata/f9/f9888f0452e58ae4488d28299aa4047c
+#	new file:   Sindre Kommer for seint/Library/metadata/f9/f9888f0452e58ae4488d28299aa4047c.info
+#	modified:   Sindre Kommer for seint/Library/metadata/fb/fb83d65eeed886840908f1c4482ffbe4.info
+#	modified:   Sindre Kommer for seint/Library/metadata/fd/fd5f7c807ca1ea643b0ae501ff889a70.info
+#	modified:   Sindre Kommer for seint/Library/metadata/fd/fd76a3d85fa584e42834036916a79b6b.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ff/ff0e1c1f0103a42f1a41b8671aab4ac2.info
+#	modified:   Sindre Kommer for seint/Library/metadata/ff/ff844157c46f6489ba1030cf0de1e8a9.info
+#	modified:   Sindre Kommer for seint/Library/shadercompiler-UnityShaderCompiler.exe0.log
+#	deleted:    Sindre Kommer for seint/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
+#	deleted:    Sindre Kommer for seint/Temp/UnityLockfile
+#	deleted:    Sindre Kommer for seint/Temp/__Backupscenes/0.backup
+#	modified:   Sindre Kommer for seint/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#
+
