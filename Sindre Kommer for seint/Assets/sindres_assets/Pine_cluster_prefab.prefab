@@ -59,6 +59,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000010068837880}
+  - 65: {fileID: 65000013433579822}
+  - 114: {fileID: 114000010765826538}
   m_Layer: 0
   m_Name: Pine_cluster_prefab
   m_TagString: Untagged
@@ -725,6 +727,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.053990122, y: 0.11105117, z: 0.055040587}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65000013433579822
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011650296002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114000010668277812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -738,6 +752,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   maxRange: 40
+  TreeSpeed: 8
+--- !u!114 &114000010765826538
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011650296002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e1cdadd8d3b4c4aa57e0e7636a2c1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  maxRange: 1
+  TreeSpeed: 8
 --- !u!114 &114000011045365234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -751,6 +780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   maxRange: 40
+  TreeSpeed: 8
 --- !u!114 &114000011676073978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -764,6 +794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   maxRange: 40
+  TreeSpeed: 8
 --- !u!114 &114000012438814394
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -777,6 +808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   maxRange: 40
+  TreeSpeed: 8
 --- !u!114 &114000013014327428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -790,6 +822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   maxRange: 40
+  TreeSpeed: 8
 --- !u!114 &114000013778239808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -803,6 +836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   maxRange: 40
+  TreeSpeed: 8
 --- !u!114 &114000014252960210
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -816,3 +850,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   maxRange: 40
+  TreeSpeed: 8

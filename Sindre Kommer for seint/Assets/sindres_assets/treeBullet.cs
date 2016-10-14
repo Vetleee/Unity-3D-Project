@@ -6,9 +6,10 @@ public class treeBullet : MonoBehaviour {
 	private bool hit; 
 	Vector3 _direction; 
 	bool isReady;
-	public int maxRange = 40; 
+	public int maxRange = 40;
+    public float TreeSpeed = 8;
 
-	void Awake()
+    void Awake()
 	{
 		speed = speed*Time.deltaTime;
 		isReady = false; 
@@ -31,8 +32,8 @@ public class treeBullet : MonoBehaviour {
 	void FixedUpdate()
 	{
 
-		float translation = Time.deltaTime * 10;
-		transform.Translate(5, 0, translation);
+		float translation = Time.deltaTime * TreeSpeed;
+		transform.Translate(2, 0, translation);
 
 		if (isReady) 
 		{
@@ -64,6 +65,10 @@ public class treeBullet : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider other)
 	{
-		Destroy (this.gameObject);
+        if(other.tag == "Destroy")
+        {
+            Destroy(this.gameObject);
+        }
+		
 	}
 }
