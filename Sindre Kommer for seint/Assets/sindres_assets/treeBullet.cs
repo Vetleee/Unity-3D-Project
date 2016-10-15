@@ -33,7 +33,7 @@ public class treeBullet : MonoBehaviour {
 	{
 
 		float translation = Time.deltaTime * TreeSpeed;
-		transform.Translate(2, 0, translation);
+		transform.Translate(1, 0, translation);
 
 		if (isReady) 
 		{
