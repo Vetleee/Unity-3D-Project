@@ -100,9 +100,9 @@ public class fpscontroll : MonoBehaviour
 		verticalRoation = Mathf.Clamp (verticalRoation, -upDownRange, upDownRange);
 		Camera.main.transform.localRotation = Quaternion.Euler(verticalRoation, 0, 0);
 
-        horizontalRotation -= Input.GetAxis("Mouse X") * mousesens;
-        horizontalRotation = Mathf.Clamp(verticalRoation, -sideRange, sideRange);
-        Camera.main.transform.localRotation = Quaternion.Euler(horizontalRotation, 0, 0);
+        // horizontalRotation -= Input.GetAxis("Mouse X") * mousesens;
+       //  horizontalRotation = Mathf.Clamp(verticalRoation, -sideRange, sideRange);
+      //  Camera.main.transform.localRotation = Quaternion.Euler(horizontalRotation, 0, 0);
 
         //movement
 
