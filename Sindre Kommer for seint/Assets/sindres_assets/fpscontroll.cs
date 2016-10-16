@@ -10,7 +10,12 @@ public class fpscontroll : MonoBehaviour
 
 
 	float verticalRoation = 0;
-	public float upDownRange = 60.0f; 
+    float horizontalRotation = 0;
+
+
+
+    public float upDownRange = 60.0f;
+    public float sideRange = 60.0f;
 
 
 	float verticalVelocity = 0;
@@ -88,16 +93,21 @@ public class fpscontroll : MonoBehaviour
 
 		//rotation
 		float rotLeftRight = Input.GetAxis("Mouse X") * mousesens;
-		transform.Rotate (0, rotLeftRight, 0);
+		transform.Rotate (0, rotLeftRight, -sideRange);
+
 
 		verticalRoation -= Input.GetAxis("Mouse Y") * mousesens;
 		verticalRoation = Mathf.Clamp (verticalRoation, -upDownRange, upDownRange);
 		Camera.main.transform.localRotation = Quaternion.Euler(verticalRoation, 0, 0);
 
-		//movement
+        horizontalRotation -= Input.GetAxis("Mouse X") * mousesens;
+        horizontalRotation = Mathf.Clamp(verticalRoation, -sideRange, sideRange);
+        Camera.main.transform.localRotation = Quaternion.Euler(horizontalRotation, 0, 0);
 
-			
-		float forwardspeed = Input.GetAxis("Vertical") * movementSpeed;
+        //movement
+
+
+        float forwardspeed = Input.GetAxis("Vertical") * movementSpeed;
 		float sideSpeed = Input.GetAxis("Horizontal") * movementSpeed;
 
 		verticalVelocity += Physics.gravity.y * Time.deltaTime;

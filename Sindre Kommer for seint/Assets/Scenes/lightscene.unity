@@ -2613,6 +2613,7 @@ MonoBehaviour:
   maxMovementSpeed: 0
   mousesens: 5
   upDownRange: 60
+  sideRange: 60
   jumpSpeed: 0
   powerjump: 120
   powerSpeed: 40
@@ -3201,6 +3202,7 @@ Transform:
   - {fileID: 1352212303}
   - {fileID: 1955457351}
   - {fileID: 1378591982}
+  - {fileID: 1291310269}
   m_Father: {fileID: 0}
   m_RootOrder: 16
 --- !u!4 &943949504 stripped
@@ -4358,13 +4360,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1291310265}
-  m_LocalRotation: {x: 0.048858676, y: -0, z: -0, w: 0.99880576}
-  m_LocalPosition: {x: -256.5788, y: 6.72, z: 30.14}
-  m_LocalScale: {x: 11.844999, y: 9.992667, z: 1}
-  m_LocalEulerAnglesHint: {x: 5.556, y: 0, z: 0}
+  m_LocalRotation: {x: -0.006843682, y: -0, z: -0, w: 0.9999766}
+  m_LocalPosition: {x: -26.48999, y: 129.93707, z: -46.839996}
+  m_LocalScale: {x: 12.919032, y: 9.741353, z: 1.0933601}
+  m_LocalEulerAnglesHint: {x: -0.77500004, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 937654396}
+  m_RootOrder: 3
 --- !u!4 &1293086116 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000012692359886, guid: d6583590745ed4ca5bfa04a712a51d01,
@@ -4732,6 +4734,7 @@ MonoBehaviour:
   maxMovementSpeed: 0
   mousesens: 5
   upDownRange: 120
+  sideRange: 60
   jumpSpeed: 20
   powerjump: 120
   powerSpeed: 40
@@ -5200,6 +5203,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!1 &1538302027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1538302029}
+  - 114: {fileID: 1538302028}
+  m_Layer: 0
+  m_Name: road_spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1538302028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1538302027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a618663f564154ea71b5fa661232bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tree: {fileID: 1000012177059984, guid: 67946f71a8d2374449e9b4e083a5f0cc, type: 2}
+  spawntime: 3.2
+  spawnlocations:
+  - {fileID: 1706564574}
+--- !u!4 &1538302029
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1538302027}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: -0.7071068}
+  m_LocalPosition: {x: -276.9, y: -1.4, z: 293.2}
+  m_LocalScale: {x: 16040.311, y: 94.01669, z: 11636.591}
+  m_LocalEulerAnglesHint: {x: 0, y: -270, z: 0}
+  m_Children:
+  - {fileID: 1706564574}
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
 --- !u!4 &1548490119 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: dea9656c26981442095bb2c93282f23d, type: 3}
@@ -5659,6 +5707,34 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dea9656c26981442095bb2c93282f23d, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1706564573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1706564574}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1706564574
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706564573}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1538302029}
+  m_RootOrder: 0
 --- !u!1 &1722634837
 GameObject:
   m_ObjectHideFlags: 0
@@ -5821,7 +5897,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1791446386}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0000013411, z: -641}
+  m_LocalPosition: {x: 0, y: -0.0000013411, z: -819}
   m_LocalScale: {x: 1014.28107, y: 167.23929, z: 220.22415}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -6404,6 +6480,7 @@ MonoBehaviour:
   maxMovementSpeed: 0
   mousesens: 5
   upDownRange: 60
+  sideRange: 0
   jumpSpeed: 0
   powerjump: 120
   powerSpeed: 40
