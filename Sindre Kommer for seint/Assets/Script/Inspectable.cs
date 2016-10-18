@@ -3,6 +3,9 @@ using System.Collections;
 
 public class Inspectable : MonoBehaviour {
 
+    public bool canPickUp = false;
+    public string itemName;
+
     private bool lerping;
     private bool held;
 
@@ -42,9 +45,7 @@ public class Inspectable : MonoBehaviour {
                 lerping = false;
             }
         }
-	
 	}
-
 
     void PickUpObject(Vector3 targetIn)
     {
@@ -63,5 +64,8 @@ public class Inspectable : MonoBehaviour {
         lerping = true;
         held = false;
     }
+
+
+
 
 }

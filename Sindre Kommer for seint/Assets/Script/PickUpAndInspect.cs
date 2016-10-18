@@ -14,20 +14,37 @@ public class PickUpAndInspect : MonoBehaviour {
     private Vector3 defaultPosition;
     private Vector3 targetPosition;
 
+    [SerializeField]
+    private GameObject reticle;
+    [SerializeField]
+    private Sprite[] reticleSprites;
+
+    [SerializeField]
+    private PlayerInventory inventory;
+
 
     void start()
     {
         cam = Camera.main;
+        reticle.SetActive(false);
+        inventory = this.GetComponent<PlayerInventory>();
     }
 
-    public bool RaycasToObject(Camera cam)
+    public string RaycasToObject(Camera cam)
     {
-
-        if (currentObject != null)
+        if(currentObject != null && currentObject.GetComponent<Inspectable>().canPickUp)
+        {
+            inventory.AddItem(currentObject.GetComponent<Inspectable>().itemName);
+            GameObject.Destroy(currentObject);
+            DisableReticle();
+            currentObject = null;
+            return null;
+        }
+        else if (currentObject != null)
         {
                 currentObject.SendMessage("PutDownObject", null, SendMessageOptions.DontRequireReceiver);
                 currentObject = null;
-                return false;           
+                return null;           
         }
 
         RaycastHit hit;
@@ -35,19 +52,30 @@ public class PickUpAndInspect : MonoBehaviour {
         if(Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, 1000))
         {
 
-            if (hit.transform.tag == "Interactable" && hit.distance < pickupDist)
+            if(hit.distance < pickupDist)
             {
-                currentObject = hit.transform.gameObject;
-                targetPosition = cam.transform.position + (cam.transform.forward * objectPos);
-                currentObject.SendMessage("PickUpObject", targetPosition);
+                switch( hit.transform.tag ){
+                    case "Interactable":
+                        currentObject = hit.transform.gameObject;
+                        targetPosition = cam.transform.position + (cam.transform.forward * objectPos);
+                        currentObject.SendMessage("PickUpObject", targetPosition);
 
-                return true;
-                
+                        return "Object";
+                    case "Door":
+                        hit.transform.gameObject.SendMessage("GetGrabbed", SendMessageOptions.DontRequireReceiver);
+                        hit.transform.gameObject.SendMessage("Unlock", SendMessageOptions.DontRequireReceiver);
+                        currentObject = hit.transform.gameObject;
+                        return "Door";
+                    case "Lock":
+                        return "Lock";
+                    default:
+                        return null;
+                }
             }
         }
-        return false;
-    }
 
+        return null;
+    }
 
     public void RotateInspected(float horizontal, float vertical)
     {
@@ -57,5 +85,33 @@ public class PickUpAndInspect : MonoBehaviour {
 
     }
 
-   
+    public void EnableReticle()
+    {
+        reticle.SetActive(true);
+    }
+
+    public void DisableReticle()
+    {
+        reticle.SetActive(false);
+    }
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.transform.tag == "Interactable")
+            EnableReticle();
+    }
+
+    void OnTriggerExit(Collider col)
+    {
+        if (col.transform.tag == "Interactable")
+            DisableReticle();
+    }
+
+    public void ReleaseDoor()
+    {
+        currentObject.SendMessage("ReleaseDoor",null,  SendMessageOptions.DontRequireReceiver);
+        currentObject = null;
+    }
+
+
 }

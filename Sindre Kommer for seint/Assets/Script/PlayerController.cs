@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-// Copyright Vetle Bugge 2016
+// Copyright @Vetle Bugge 2016
 
 public class PlayerController : MonoBehaviour {
 
@@ -9,12 +9,12 @@ public class PlayerController : MonoBehaviour {
     private PickUpAndInspect pickUp;
     private Camera fpCam;
 
-
     private float horizontal;
     private float vertical;
     public float walkSpeed;
 
-    private bool isInspecting;
+    [SerializeField]
+    private string isInspecting;
 
     //Headbob
     public bool headbob = true;
@@ -35,13 +35,11 @@ public class PlayerController : MonoBehaviour {
         pickUp = GetComponent<PickUpAndInspect>();
 
         camRestingPoint = fpCam.transform.localPosition;
-
-	}
-	
+	}	
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        if (!isInspecting)
+        if (isInspecting == null)
         {
             MoveCharacter();
         }
@@ -50,12 +48,16 @@ public class PlayerController : MonoBehaviour {
 
         MoveCamera();
         
-
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetButtonDown("Interact"))
         {
             isInspecting =  pickUp.RaycasToObject(fpCam);
         }
-     
+
+        if(Input.GetButtonUp("Interact") && isInspecting == "Door")
+        {
+            isInspecting = null;
+            pickUp.ReleaseDoor();
+        }
 
 	}
 
@@ -63,8 +65,6 @@ public class PlayerController : MonoBehaviour {
     {
         //Gets input from directions and stores them
         
-
-
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");      
 
@@ -82,7 +82,7 @@ public class PlayerController : MonoBehaviour {
         float mouseHorizontal = Input.GetAxisRaw("Mouse Y");
         float mouseVertical = Input.GetAxisRaw("Mouse X");
 
-        if (!isInspecting)
+        if (isInspecting == null)
         {
             //Rotate camera horizontally
             fpCam.transform.Rotate(Vector3.right, mouseHorizontal * -1);
@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour {
             fpCam.transform.Rotate(Vector3.up, mouseVertical, Space.World);
 
             fpCam.transform.localPosition = camPostion;
-        }else
+        }else if (isInspecting == "Object")
         {
             pickUp.RotateInspected(mouseHorizontal, mouseVertical);
         }
@@ -101,7 +101,7 @@ public class PlayerController : MonoBehaviour {
     {
         camPostion = fpCam.transform.localPosition;
 
-        if ((vertical != 0 || horizontal != 0) && !isInspecting)
+        if ((vertical != 0 || horizontal != 0) && isInspecting == null)
         {
             bobTimer += bobSpeed * Time.fixedDeltaTime;
             Vector3 newPosition = new Vector3(Mathf.Cos(bobTimer) * bobAmount, camRestingPoint.y + Mathf.Abs(Mathf.Cos(bobTimer) * bobAmount), camRestingPoint.z);
@@ -123,9 +123,9 @@ public class PlayerController : MonoBehaviour {
 
     }
 
-   
-
-
-
+    void ReleasePlayer()
+    {
+        isInspecting = null;
+    }
 
 }
